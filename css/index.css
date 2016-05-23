@@ -1,0 +1,48 @@
+body
+{
+	margin: 0;
+	background-image: url('../img/3.jpg');
+}
+
+div
+{
+	display: inline-block;
+}
+
+
+#header
+{
+	width: 100%;
+}
+#head-title
+{
+	width: 45%;
+	color: white;
+	font-family: cursive;
+	font-size: 36px;
+	margin-left: 5%;
+}
+
+#head-menu
+{
+	position: absolute;
+	color: white;
+	font-family: cursive;
+	font-size: 0.8em;
+	margin-top: 5%;
+
+
+}
+.head-option
+{
+	padding: 20px;
+}
+
+.body-option
+{
+	color: white;
+	font-family: cursive;
+	font-size: 1em;
+	margin-left: 10%;
+	margin-top: 3%;
+}

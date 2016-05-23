@@ -1,0 +1,14 @@
+body
+{
+	margin: 0;
+}
+
+#header-up
+{
+	height: 30px;
+}
+#header-down
+{
+	height: 200px;
+	background-color: blue;
+}
