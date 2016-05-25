@@ -41,8 +41,7 @@ li{
 	width: 100%;
 }
 
-#head-title
-{
+#head-title{
 	width: 45%;
 	color: white;
 	font-family: cursive;
@@ -50,15 +49,13 @@ li{
 	margin-left: 5%;
 }
 
-.head-option
-{
+.head-option{
 
 	padding: 1.2em;
 	color: white;	
 }
 
-.body-option
-{
+.body-option{
 	color: white;
 	font-family: cursive;
 	font-size: 1em;
@@ -67,8 +64,7 @@ li{
 	padding:10px;
 }
 
-.head-option:hover, .body-option:hover
-{
+.head-option:hover, .body-option:hover{
 	cursor: pointer;
 	
 }
