@@ -1,19 +1,47 @@
-body
-{
+body{
 	margin: 0;
 	background-image: url('../img/3.jpg');
+	background-size: cover;
 }
 
-div
-{
+div{
 	display: inline-block;
 }
 
+  ul{
+ 	display: none;
+}
 
-#header
-{
+li{
+	padding: 0.5em;
+	list-style-type: none;
+	margin-left: -50%;
+	background-color: black;
+	opacity: 0.6;
+}
+
+.active  {
+	width:70%;
+	margin-left: 60%;
+	padding-left: 15%;
+	text-align: right;
+
+	}
+
+.list{
+	
+	font-size: 0.9em;
+	font-family: cursive;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	width:7%;    
+}
+
+#header{
 	width: 100%;
 }
+
 #head-title
 {
 	width: 45%;
@@ -23,19 +51,11 @@ div
 	margin-left: 5%;
 }
 
-#head-menu
-{
-	position: absolute;
-	color: white;
-	font-family: cursive;
-	font-size: 0.8em;
-	margin-top: 5%;
-
-
-}
 .head-option
 {
-	padding: 20px;
+
+	padding: 1.2em;
+	color: white;	
 }
 
 .body-option
@@ -45,4 +65,19 @@ div
 	font-size: 1em;
 	margin-left: 10%;
 	margin-top: 3%;
+	padding:10px;
+}
+
+.head-option:hover, .body-option:hover
+{
+	cursor: pointer;
+	
+}
+
+.menu-title:hover{
+	opacity: 0.5;
+}
+
+li:hover{
+	opacity:1;
 }
